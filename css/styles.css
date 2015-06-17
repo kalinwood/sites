@@ -122,6 +122,7 @@ p {
     to   { opacity: 1; }
 }
 }
+}
 
 .unit-alt {
   height: 300px;
@@ -174,67 +175,100 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
 }
 
 .v-one {
-  background: #3A6073;
+  background: #fdd9c8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fdd9c8 0%, #bab4a9 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdd9c8), color-stop(100%,#bab4a9)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fdd9c8 0%,#bab4a9 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fdd9c8 0%,#bab4a9 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fdd9c8 0%,#bab4a9 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fdd9c8 0%,#bab4a9 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdd9c8', endColorstr='#bab4a9',GradientType=0 ); /* IE6-9 */
+
   color: white;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-}
-
-.v-one:hover {
-  background: #91a4b6;
 }
 
 .v-two {
-  background: #6d859e;
+  background: #bab4a9; /* Old browsers */
+  background: -moz-linear-gradient(top,  #bab4a9 0%, #657782 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#bab4a9), color-stop(100%,#657782)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #bab4a9 0%,#657782 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #bab4a9 0%,#657782 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #bab4a9 0%,#657782 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #bab4a9 0%,#657782 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bab4a9', endColorstr='#657782',GradientType=0 ); /* IE6-9 */
+
   color: white;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-}
-
-.v-two:hover {
-  background: #91a4b6;
 }
 
 .v-three {
-  background: #364d65;
+  background: #657782; /* Old browsers */
+  background: -moz-linear-gradient(top,  #657782 0%, #4d5f7d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#657782), color-stop(100%,#4d5f7d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #657782 0%,#4d5f7d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #657782 0%,#4d5f7d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #657782 0%,#4d5f7d 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #657782 0%,#4d5f7d 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#657782', endColorstr='#4d5f7d',GradientType=0 ); /* IE6-9 */
+
   color: white;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-}
-
-.v-three:hover {
-  background: #486786;
 }
 
 .v-four {
-  background: #91a4b6;
+  background: #4d5f7d; /* Old browsers */
+  background: -moz-linear-gradient(top,  #4d5f7d 0%, #00002d 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4d5f7d), color-stop(100%,#00002d)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #4d5f7d 0%,#00002d 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #4d5f7d 0%,#00002d 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #4d5f7d 0%,#00002d 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #4d5f7d 0%,#00002d 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d5f7d', endColorstr='#00002d',GradientType=0 ); /* IE6-9 */
+
   color: white;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-}
-
-.v-four:hover {
-  background: #b6c2cf;
 }
 
 .v-five {
-  background: #243443;
+  background: #00002D;
   color: white;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
-}
-
-.v-five:hover {
-  background: #364d65;
 }
 
 .last {
   margin-bottom: 40px;
+}
+
+footer {
+  width: 100%;
+  padding: 30px 20px 40px;
+  color: #486786;
+  font-size: .8em;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+footer a {
+  color: #00002d;
+  text-decoration: none;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+}
+
+footer a:hover {
+  color: #4d5f7d;
 }
 
 @media screen and (min-width:700px) {
