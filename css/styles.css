@@ -174,20 +174,126 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
   width: 100%;
 }
 
-.v-one {
-  background: #fdd9c8; /* Old browsers */
-  background: -moz-linear-gradient(top,  #fdd9c8 0%, #bab4a9 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdd9c8), color-stop(100%,#bab4a9)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #fdd9c8 0%,#bab4a9 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #fdd9c8 0%,#bab4a9 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #fdd9c8 0%,#bab4a9 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #fdd9c8 0%,#bab4a9 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdd9c8', endColorstr='#bab4a9',GradientType=0 ); /* IE6-9 */
+.eighty-three {
+  background-image: url(../images/83.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
 
+.wings {
+  background-image: url(../images/wings2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.wedding {
+  background-image: url(../images/tc.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.sloppy {
+  background-image: url(../images/sloppy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.austin {
+  background-image: url(../images/austin.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.pavel {
+  background-image: url(../images/pavel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.lshex {
+  background-image: url(../images/lshex.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.hexy {
+  background-image: url(../images/hexy.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.cv {
+  background-image: url(../images/cv.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.albums {
+  background-image: url(../images/albums.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.support {
+  background-image: url(../images/support.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.drw14 {
+  background-image: url(../images/wings3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.v-one {
+  /*background: rgba( 39, 48, 63, 0.9);*/
+  background: rgba( 0, 57, 94, 0.9);
   color: white;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
   -o-transition: all 0.8s ease;
+}
+
+.v-one:hover {
+  /*background: rgba( 39, 48, 63, 0.5);*/
+  background: rgba( 0, 57, 94, 0.5);
 }
 
 .v-two {
