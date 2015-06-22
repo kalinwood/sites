@@ -174,6 +174,11 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
   width: 100%;
 }
 
+.full {
+  width: 100%;
+  padding: 10px 20px;
+}
+
 .eighty-three {
   background-image: url(../images/83.jpg);
   background-repeat: no-repeat;
@@ -275,6 +280,15 @@ box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
 
 .drw14 {
   background-image: url(../images/wings3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.metal {
+  background-image: url(../images/metal.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
